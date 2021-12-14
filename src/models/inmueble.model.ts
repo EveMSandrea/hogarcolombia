@@ -20,6 +20,11 @@ export class Inmueble extends Entity {
     required: true,
   })
   direccion: string;
+  @property({
+    type: 'string',
+    required: true,
+  })
+  imagen: string;
 
   @property({
     type: 'string',
